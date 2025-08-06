@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <script defer src="script.js"></script>
+</head>
+<body>
+    <div id="home"></div>
+
+
+  <!-- Header Section -->
+  <header>
+    <h1>Abdullah Iftikhar</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- About Section -->
+  <section id="about">
+  <div class="about-container">
+    <img src="images/pic.jpeg" alt="My Photo" />
+    <div class="about-text">
+      <h2>About Me</h2>
+      <p>
+        Hi! I'm Abdullah Iftikhar, a Frontend Development Intern passionate about creating clean and responsive web interfaces. I love learning modern web technologies and turning ideas into reality through code.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- Skills Section -->
+<section id="skills">
+  <div class="skills-container">
+    <h2>My Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-card">HTML</div>
+      <div class="skill-card">CSS</div>
+      <div class="skill-card">JavaScript</div>
+      <div class="skill-card">Git</div>
+      <div class="skill-card">Canva</div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Hobbies Section -->
+<section id="hobbies">
+  <div class="hobbies-container">
+    <h2>My Hobbies</h2>
+    <div class="hobby-list">
+      <div class="hobby"><i class="fas fa-hiking"></i> Hiking</div>
+      <div class="hobby"><i class="fas fa-camera-retro"></i> Photography</div>
+      <div class="hobby"><i class="fas fa-edit"></i> Editing</div>
+    </div>
+  </div>
+</section>
+
+
+<section id="contact">
+  <div class="contact-container">
+    <h2>Contact Me</h2>
+    <form id="contact-form">
+      <input type="text" id="name" placeholder="Your Name" required />
+      <input type="email" id="email" placeholder="Your Email" required />
+      <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
+</section>
+
+
+<button id="scrollTopBtn" title="Go to top">
+  <i class="fas fa-arrow-up"></i>
+</button>
+
+
+</body>
+</html>
